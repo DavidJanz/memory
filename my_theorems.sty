@@ -1,0 +1,78 @@
+\theoremstyle{plain}
+\declaretheorem[numberwithin=section]{theorem}
+\zcRefTypeSetup{theorem}{
+Name-sg = Theorem,
+name-sg = theorem,
+Name-pl = Theorems,
+name-pl = theorems,
+}
+
+\declaretheorem[numberwithin=section,sibling=theorem]{lemma}
+\zcRefTypeSetup{lemma}{
+Name-sg = Lemma,
+name-sg = lemma,
+Name-pl = Lemmas,
+name-pl = lemmas,
+}
+
+\declaretheorem[numberwithin=section,sibling=theorem]{corollary}
+\zcRefTypeSetup{corollary}{
+Name-sg = Corollary,
+name-sg = corollary,
+Name-pl = Corollaries,
+name-pl = corollaries,
+}
+
+\declaretheorem[numberwithin=section,sibling=theorem]{proposition}
+\zcRefTypeSetup{proposition}{
+Name-sg = Proposition,
+name-sg = proposition,
+Name-pl = Propositions,
+name-pl = propositions,
+}
+
+\declaretheorem[sibling=theorem]{claim}
+\zcRefTypeSetup{claim}{
+Name-sg = Claim,
+name-sg = claim,
+Name-pl = Claims,
+name-pl = claims,
+}
+
+\theoremstyle{definition}
+\declaretheorem[numberwithin=section]{definition}
+\zcRefTypeSetup{definition}{
+Name-sg = Definition,
+name-sg = definition,
+Name-pl = Definitions,
+name-pl = definitions,
+}
+
+\declaretheorem[numberwithin=section]{assumption}
+\zcRefTypeSetup{assumption}{
+Name-sg = Assumption,
+name-sg = assumption,
+Name-pl = Assumptions,
+name-pl = assumptions,
+}
+
+\theoremstyle{remark}
+\declaretheorem[numberwithin=section]{remark}
+\zcRefTypeSetup{remark}{
+Name-sg = Remark,
+name-sg = remark,
+Name-pl = Remarks,
+name-pl = remarks,
+}
+
+
+\declaretheorem[numberwithin=section,sibling=remark]{example}
+
+\zcRefTypeSetup{example}{
+Name-sg = Example,
+name-sg = example,
+Name-pl = Exmaples,
+name-pl = examples,
+}
+
+\renewcommand{\qedsymbol}{\rule{1.5ex}{1.5ex}}
